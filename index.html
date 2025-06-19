@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurante Bendito Nordestino</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="topo-logo">
+      <img src="assets/logobendito.png" alt="Logo do Restaurante Bendito Nordestino" class="logo">
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Especialidades</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#horario">Horário</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h1>Bem-vindo ao Restaurante Bendito Nordestino</h1>
+      <p>Uma experiência gastronômica única e saborosa. O melhor do sabor Nordestino da Nossa Terra! Desde 2002, comida caseira que enche o bucho e o coração.</p>
+      <p>Delicie-se com nossas especialidades, como a deliciosa <strong>carne do sol ao leite</strong>, a autêntica <strong>feijoada</strong>, a inegualável <strong>panelada</strong></p>
+      <p>Nosso cardápio é uma viagem pelas tradições e sabores que fazem parte da rica cultura nordestina. Venha conhecer ou faça seu pedido e sinta o calor do Nordeste! 🌞</p>
+    </section>
+    <br>
+
+    <section id="servicos">
+      <h2>Especialidades da Casa</h2>
+      <div class="especialidades-container">
+        <article>
+          <img src="assets/carnedosoldochefdito.png" alt="Carne do Sol do chef Dito" />
+          <h3>CARNE DO SOL DO CHEF DITO</h3>
+          <p>Um prato premiado da categoria 'Excelência da Casa | Medalhistas'. Carne de Sol, cuidadosamente refogada na cebola e perfeitamente caramelizada com um toque exótico de molho shoyu.</p>
+        </article>
+        <article>
+          <img src="assets/camaraoadelicia.png" alt="Camarão à delícia" />
+          <h3>CAMARÃO À DELÍCIA</h3>
+          <p>Camarão à milanesa servida com molho branco artesanal, banana à milanesa e o nosso arroz branco.Se você quer um prato sofisticado e gostoso é uma excelente pedida!</p>
+        </article>
+        <article>
+          <img src="assets/carangueijo.png" alt="Carangueijo do chef Dito" />
+          <h3>CARANGUEIJO DO CHEF DITO</h3>
+          <p>As Quintas-feira não pode faltar o tradicional e suculento Carangueijo do chef Dito, que já conquistou paladares de todos os lugares.</p>
+        </article>
+      </div>
+    </section>
+    <br>
+
+
+    <section id="galeria">
+      <h3>Galeria</h3>
+      <div>
+        <figure>
+          <img src="assets/area1.webp" alt="Ambiente interno do restaurante">
+          <figcaption>Ambiente caloroso</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/espacokids.png" alt="Espaço Kids">
+          <figcaption>Espaço Kids acolhedor</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/pratos.png" alt="Pratos">
+          <figcaption>Pratos Deliciosos</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/pizza.png" alt="Pizza">
+          <figcaption>Pizzas quentinhas</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/sobremesa.webp" alt="Sobremesas">
+          <figcaption>Sobremesas saborosas</figcaption>
+        </figure>
+      </div>
+    </section>
+    <br>
+
+    <section id="horario">
+      <h3>Horário de funcionamento</h3>
+      <p>Segunda-feira - <strong>Fechado</strong></p>
+      <p>Terça-feira - 10:30 às 14:00</p>
+      <p>Quarta-feira - 10:30 às 14:00 - 17:00 às 22:15</p>
+      <p>Quinta-feira - 10:30 às 14:00 - 17:00 às 22:00</p>
+      <p>Sexta-feira -10:30 às 15:30 - 17:00 às 22:00</p>
+      <p>Sábado - 10:30 às 22:00</p>
+      <p>Domingo - 10:30 às 22:00</p><br>
+    </section>
+    <br>
+
+    <section id="contato">
+      <h3>Contato</h3>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+          <option value="">Selecione</option>
+          <option value="reservas">Reservas</option>
+          <option value="eventos">Eventos</option>
+          <option value="outros">Outros</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="localizacao">
+      <h3>Localização</h3>
+      <iframe
+        src="assets/maps.png"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+      <p>Residencial 8 de setembro - R. VI, 179 - Serrinha, Fortaleza - CE, 60744-870</p>
+      <a href="https://maps.app.goo.gl/sF6PcPQmKSF2Cs8F6" target="_blank">
+        <button>Ver no Google Maps</button>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Restaurante Bendito Nordestino Fortaleza | CNPJ: 35.356.550/0001-22 | by Davidmax</p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Especialidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="redes-sociais">
+      <a href="https://www.instagram.com/benditonordestinorestaurante/">Instagram</a> |
+      <a href="https://wa.me/5585986882404/">Whatsapp</a> |
+      <a href="https://www.ifood.com.br/delivery/fortaleza-ce/bendito-nordestino-restaurante-big-brother-restaurante-desde-2002-serrinha/38493f86-0d99-4b46-8250-5da295fa559a?srsltid=AfmBOor2Mdfj0LABLkYaDA_kb6tDl2pCOI4mIrm4iCyYYoOWDvbba900">ifood</a>
+    </div>
+  </footer>
+
+</body>
+</html>
